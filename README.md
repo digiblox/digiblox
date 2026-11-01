@@ -1,21 +1,10 @@
-# Digiblox Revival
+# Digiblox
 
-A fan-made 2016-inspired revival project for a playful social gaming portal called Digiblox.
-
-This project is an original tribute-style front-end inspired by the energy of classic 2016-era gaming portals, built from scratch without using proprietary Roblox source code or assets.
-
-## What it includes
-
-- Retro 2016-style portal layout
-- Hero section, feature cards, game grid, and sidebar widgets
-- Responsive mobile-friendly styling
-- Simple JavaScript interactions for a polished feel
+A fan-made social gaming website inspired by the feel of classic 2016 gaming portals.
 
 ## Run locally
 
-Open `index.html` in a web browser.
-
-You can also serve it with a tiny local web server:
+Open `index.html` in a browser, or use a simple local server:
 
 ```bash
 python -m http.server 8000
@@ -27,16 +16,23 @@ Then visit:
 http://localhost:8000
 ```
 
-## Project structure
+## Publish for free
+
+This project is a static website, so you can host it for free on GitHub Pages:
+
+1. Push the repo to GitHub.
+2. Open the repository settings.
+3. Go to Pages.
+4. Set source to `main` and folder to `/root`.
+5. Save.
+6. Your site will publish at:
 
 ```text
-.
-├── index.html
-├── styles.css
-├── script.js
-├── README.md
+https://digiblox.github.io/digiblox/
 ```
 
-## Notes
+## Files
 
-This is a fan-made creative tribute and does not use Roblox proprietary source code or copyrighted engine files.
+- `index.html`
+- `styles.css`
+- `script.js`

@@ -3,219 +3,249 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Digiblox | Fan-made 2016 Revival</title>
+    <title>Digiblox | Play, Create, Explore</title>
     <meta
       name="description"
-      content="Digiblox is a fan-made 2016-inspired revival with retro game portal vibes, original UI, and a playful social gaming aesthetic."
+      content="Digiblox is a fan-made social gaming portal for playing, building, and exploring creative worlds."
     />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700;800;900&family=Open+Sans:wght@400;600;700&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap"
       rel="stylesheet"
     />
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <div class="page-shell">
-      <header class="topbar">
-        <div class="branding-wrap">
+    <div class="site-bg"></div>
+
+    <header class="topbar">
+      <div class="container topbar-inner">
+        <div class="brand" aria-label="Digiblox home">
           <div class="brand-mark">D</div>
-          <div class="brand-text">Digiblox</div>
+          <span>Digiblox</span>
         </div>
 
-        <nav class="main-nav" aria-label="Main navigation">
-          <a href="#">Home</a>
-          <a href="#">Games</a>
-          <a href="#">Catalog</a>
-          <a href="#">Avatar</a>
-          <a href="#">Forum</a>
+        <nav class="nav" aria-label="Main navigation">
+          <a href="#home">Home</a>
+          <a href="#discover">Discover</a>
+          <a href="#games">Games</a>
+          <a href="#creator">Creator</a>
+          <a href="#community">Community</a>
         </nav>
 
-        <div class="user-tools">
-          <button class="pill ghost">Sign In</button>
-          <button class="pill primary">Join Now</button>
+        <div class="top-actions">
+          <button class="btn btn-light">Log in</button>
+          <button class="btn btn-primary">Join now</button>
         </div>
-      </header>
+      </div>
+    </header>
 
-      <main>
-        <section class="hero">
+    <main id="home">
+      <section class="hero">
+        <div class="container hero-inner">
           <div class="hero-copy">
-            <div class="eyebrow">A fan-made 2016 revival</div>
-            <h1>Build, play, and create in the <span>Digiblox</span> universe.</h1>
+            <span class="badge">Fan-made 2016 revival</span>
+            <h1>Build your world. Play with friends. Make something unforgettable.</h1>
             <p>
-              Explore a nostalgic digital playground inspired by the feel of 2016 social gaming portals:
-              original worlds, retro UI, builders, and community moments.
+              Digiblox brings together immersive worlds, creative tools, and a lively community.
+              Jump into original games, design your own spaces, and hang out in a nostalgic social platform built for imagination.
             </p>
 
-            <div class="cta-row">
-              <button class="pill primary large">Play Now</button>
-              <button class="pill secondary large">Explore Games</button>
+            <div class="hero-actions">
+              <button class="btn btn-primary large">Play now</button>
+              <button class="btn btn-outline large">Explore worlds</button>
             </div>
 
-            <div class="stats">
+            <div class="hero-stats">
               <div>
-                <strong>720K+</strong>
-                <span>Players</span>
+                <strong>1.2M+</strong>
+                <span>creations</span>
+              </div>
+              <div>
+                <strong>720K</strong>
+                <span>players</span>
               </div>
               <div>
                 <strong>3.4K</strong>
-                <span>Games</span>
-              </div>
-              <div>
-                <strong>1.2M</strong>
-                <span>Creations</span>
+                <span>games</span>
               </div>
             </div>
           </div>
 
-          <div class="hero-panel">
-            <div class="panel-header">
-              <span class="dot red"></span>
-              <span class="dot yellow"></span>
-              <span class="dot green"></span>
-            </div>
-
-            <div class="panel-cards">
-              <div class="mini-card featured">
-                <span>Featured World</span>
-                <strong>Skyline Builder</strong>
-                <small>16,240 players online</small>
+          <div class="hero-visual" aria-label="Digiblox showcase panel">
+            <div class="window">
+              <div class="window-bar">
+                <span class="dot red"></span>
+                <span class="dot yellow"></span>
+                <span class="dot green"></span>
               </div>
 
-              <div class="mini-card">
-                <span>Popular</span>
-                <strong>Block Rush</strong>
-                <small>Epic speed runs</small>
-              </div>
-
-              <div class="mini-card">
-                <span>Creator</span>
-                <strong>Pixel Forge</strong>
-                <small>Build your dream city</small>
-              </div>
-            </div>
-          </div>
-        </section>
-
-        <section class="feature-strip">
-          <div class="feature-box">
-            <div class="feature-icon">🎮</div>
-            <div>
-              <h3>Games</h3>
-              <p>Jump into creative and competitive worlds.</p>
-            </div>
-          </div>
-          <div class="feature-box">
-            <div class="feature-icon">🧱</div>
-            <div>
-              <h3>Build</h3>
-              <p>Shape live spaces with the block-based tools.</p>
-            </div>
-          </div>
-          <div class="feature-box">
-            <div class="feature-icon">👥</div>
-            <div>
-              <h3>Social</h3>
-              <p>Meet friends and hang out in shared worlds.</p>
-            </div>
-          </div>
-        </section>
-
-        <section class="content-grid">
-          <div class="left-column">
-            <div class="section-title-row">
-              <h2>Featured games</h2>
-              <a href="#">View all</a>
-            </div>
-
-            <div class="game-grid">
-              <article class="game-card">
-                <div class="game-thumb thumb-one"></div>
-                <div class="game-meta">
+              <div class="window-content">
+                <div class="featured-card">
+                  <div class="featured-header">
+                    <span>Featured world</span>
+                    <span class="pill live">LIVE</span>
+                  </div>
                   <h3>Skyline Builder</h3>
-                  <p>Design your dream city tower by tower.</p>
+                  <p>Build towers, launch cities, and create your dream skyline.</p>
                 </div>
-              </article>
 
-              <article class="game-card">
-                <div class="game-thumb thumb-two"></div>
-                <div class="game-meta">
-                  <h3>Block Rush</h3>
-                  <p>Fast-paced obstacle racing with huge jumps.</p>
+                <div class="mini-grid">
+                  <div class="mini-card card-blue">
+                    <small>Popular</small>
+                    <strong>Block Rush</strong>
+                  </div>
+                  <div class="mini-card card-green">
+                    <small>Creator</small>
+                    <strong>Pixel Forge</strong>
+                  </div>
                 </div>
-              </article>
-
-              <article class="game-card">
-                <div class="game-thumb thumb-three"></div>
-                <div class="game-meta">
-                  <h3>Pixel Forge</h3>
-                  <p>Gather resources and craft your empire.</p>
-                </div>
-              </article>
-
-              <article class="game-card">
-                <div class="game-thumb thumb-four"></div>
-                <div class="game-meta">
-                  <h3>Arcade Arena</h3>
-                  <p>Arcade minigames and competition events.</p>
-                </div>
-              </article>
+              </div>
             </div>
           </div>
+        </div>
+      </section>
 
-          <aside class="right-column">
-            <div class="side-panel">
-              <div class="panel-header compact">
-                <span>Trending</span>
-                <span class="live-indicator">Live</span>
+      <section class="features container" id="discover">
+        <div class="feature-box">
+          <div class="icon">🎮</div>
+          <div>
+            <h3>Play games</h3>
+            <p>Jump into competitive and creative adventures with friends.</p>
+          </div>
+        </div>
+        <div class="feature-box">
+          <div class="icon">🧱</div>
+          <div>
+            <h3>Build worlds</h3>
+            <p>Create custom spaces with intuitive tools and original ideas.</p>
+          </div>
+        </div>
+        <div class="feature-box">
+          <div class="icon">👥</div>
+          <div>
+            <h3>Social fun</h3>
+            <p>Meet players, join communities, and enjoy the social experience.</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="games container" id="games">
+        <div class="section-heading">
+          <div>
+            <span class="eyebrow">Featured</span>
+            <h2>Top games</h2>
+          </div>
+          <a href="#">View all</a>
+        </div>
+
+        <div class="game-grid">
+          <article class="game-card">
+            <div class="thumb thumb-one"></div>
+            <div class="card-body">
+              <h3>Skyline Builder</h3>
+              <p>Design massive city structures, landscapes, and neighborhoods.</p>
+            </div>
+          </article>
+
+          <article class="game-card">
+            <div class="thumb thumb-two"></div>
+            <div class="card-body">
+              <h3>Block Rush</h3>
+              <p>Race through obstacle-packed challenges in thrill-filled maps.</p>
+            </div>
+          </article>
+
+          <article class="game-card">
+            <div class="thumb thumb-three"></div>
+            <div class="card-body">
+              <h3>Pixel Forge</h3>
+              <p>Mine resources, craft tools, and build your own empire.</p>
+            </div>
+          </article>
+
+          <article class="game-card">
+            <div class="thumb thumb-four"></div>
+            <div class="card-body">
+              <h3>Arcade Arena</h3>
+              <p>Compete in mini-games built for speed, skill, and fun.</p>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="showcase container" id="creator">
+        <div class="showcase-panel left-panel">
+          <span class="eyebrow">Creator tools</span>
+          <h2>Make your own worlds.</h2>
+          <p>
+            Build from scratch with an easy-to-use creative toolkit and publish your imagination for others to explore.
+          </p>
+          <button class="btn btn-primary">Start building</button>
+        </div>
+
+        <div class="showcase-panel stats-panel">
+          <div class="stat-item">
+            <strong>18.6K</strong>
+            <span>new worlds this week</span>
+          </div>
+          <div class="stat-item">
+            <strong>94%</strong>
+            <span>creator satisfaction</span>
+          </div>
+          <div class="stat-item">
+            <strong>4.9/5</strong>
+            <span>community rating</span>
+          </div>
+        </div>
+      </section>
+
+      <section class="community container" id="community">
+        <div class="community-box">
+          <div class="community-head">
+            <span class="eyebrow">Trending</span>
+            <h2>What the community is playing</h2>
+          </div>
+
+          <ul class="trend-list">
+            <li>
+              <span class="rank">1</span>
+              <div>
+                <strong>Creator Jam</strong>
+                <small>8.4k watching</small>
               </div>
+            </li>
+            <li>
+              <span class="rank">2</span>
+              <div>
+                <strong>Urban Build 2</strong>
+                <small>7.1k watching</small>
+              </div>
+            </li>
+            <li>
+              <span class="rank">3</span>
+              <div>
+                <strong>Castle Clash</strong>
+                <small>6.6k watching</small>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+    </main>
 
-              <ul class="trending-list">
-                <li>
-                  <span class="rank">1</span>
-                  <div>
-                    <strong>Creator Jam</strong>
-                    <small>8.4k watching</small>
-                  </div>
-                </li>
-                <li>
-                  <span class="rank">2</span>
-                  <div>
-                    <strong>Urban Build 2</strong>
-                    <small>7.1k watching</small>
-                  </div>
-                </li>
-                <li>
-                  <span class="rank">3</span>
-                  <div>
-                    <strong>Castle Clash</strong>
-                    <small>6.6k watching</small>
-                  </div>
-                </li>
-              </ul>
-            </div>
-
-            <div class="side-panel callout">
-              <div class="mini-q">Create</div>
-              <h3>Launch your own game world.</h3>
-              <p>Build with simple tools and publish for friends and communities.</p>
-              <button class="pill primary small">Start Building</button>
-            </div>
-          </aside>
-        </section>
-      </main>
-
-      <footer class="footer">
+    <footer class="site-footer">
+      <div class="container footer-inner">
         <div class="footer-brand">Digiblox</div>
         <div class="footer-links">
           <a href="#">About</a>
-          <a href="#">Careers</a>
+          <a href="#">Blog</a>
           <a href="#">Support</a>
           <a href="#">Privacy</a>
         </div>
-      </footer>
-    </div>
+      </div>
+    </footer>
 
     <script src="script.js"></script>
   </body>

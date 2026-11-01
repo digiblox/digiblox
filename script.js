@@ -1,7 +1,7 @@
 document.addEventListener("DOMContentLoaded", () => {
-  const buttons = document.querySelectorAll(".pill, .game-card");
+  const primaryButtons = document.querySelectorAll(".btn-primary, .btn-outline, .btn-light");
 
-  buttons.forEach((button) => {
+  primaryButtons.forEach((button) => {
     button.addEventListener("mouseenter", () => {
       button.style.filter = "brightness(1.02)";
     });
@@ -11,12 +11,12 @@ document.addEventListener("DOMContentLoaded", () => {
     });
   });
 
-  const mainButton = document.querySelector(".pill.primary.large");
-  if (mainButton) {
-    mainButton.addEventListener("click", () => {
-      mainButton.textContent = "Entering Digiblox...";
+  const playButton = document.querySelector(".btn.btn-primary.large");
+  if (playButton) {
+    playButton.addEventListener("click", () => {
+      playButton.textContent = "Launching...";
       setTimeout(() => {
-        mainButton.textContent = "Play Now";
+        playButton.textContent = "Play now";
       }, 1200);
     });
   }
