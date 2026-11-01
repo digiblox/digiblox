@@ -6,7 +6,7 @@
     <title>Digiblox | Play, Create, Explore</title>
     <meta
       name="description"
-      content="Digiblox is a fan-made social gaming portal for playing, building, and exploring creative worlds."
+      content="Digiblox is a fan-made social gaming and creation platform inspired by play-first 2016-era experiences."
     />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -29,14 +29,14 @@
         <nav class="nav" aria-label="Main navigation">
           <a href="#home">Home</a>
           <a href="#discover">Discover</a>
-          <a href="#games">Games</a>
           <a href="#creator">Creator</a>
           <a href="#community">Community</a>
+          <a href="#explore">Explore</a>
         </nav>
 
         <div class="top-actions">
-          <button class="btn btn-light">Log in</button>
-          <button class="btn btn-primary">Join now</button>
+          <button class="btn btn-light modal-trigger" data-modal="login-modal">Log in</button>
+          <button class="btn btn-primary modal-trigger" data-modal="signup-modal">Join now</button>
         </div>
       </div>
     </header>
@@ -46,15 +46,15 @@
         <div class="container hero-inner">
           <div class="hero-copy">
             <span class="badge">Fan-made 2016 revival</span>
-            <h1>Build your world. Play with friends. Make something unforgettable.</h1>
+            <h1>Build something bold. Play with your people.</h1>
             <p>
-              Digiblox brings together immersive worlds, creative tools, and a lively community.
-              Jump into original games, design your own spaces, and hang out in a nostalgic social platform built for imagination.
+              Digiblox is a social platform for playing, creating, and exploring original worlds.
+              Jump into fun experiences, meet friends, and create your own online space in a nostalgic-inspired community.
             </p>
 
             <div class="hero-actions">
-              <button class="btn btn-primary large">Play now</button>
-              <button class="btn btn-outline large">Explore worlds</button>
+              <button class="btn btn-primary large modal-trigger" data-modal="signup-modal">Play now</button>
+              <button class="btn btn-outline large" type="button">Explore worlds</button>
             </div>
 
             <div class="hero-stats">
@@ -63,12 +63,12 @@
                 <span>creations</span>
               </div>
               <div>
-                <strong>720K</strong>
-                <span>players</span>
+                <strong>40K</strong>
+                <span>developers</span>
               </div>
               <div>
-                <strong>3.4K</strong>
-                <span>games</span>
+                <strong>250K</strong>
+                <span>friends online</span>
               </div>
             </div>
           </div>
@@ -88,7 +88,7 @@
                     <span class="pill live">LIVE</span>
                   </div>
                   <h3>Skyline Builder</h3>
-                  <p>Build towers, launch cities, and create your dream skyline.</p>
+                  <p>Design towering cities, custom layouts, and open spaces for your crew.</p>
                 </div>
 
                 <div class="mini-grid">
@@ -111,31 +111,31 @@
         <div class="feature-box">
           <div class="icon">🎮</div>
           <div>
-            <h3>Play games</h3>
-            <p>Jump into competitive and creative adventures with friends.</p>
+            <h3>Play</h3>
+            <p>Jump into social experiences built for creativity and fun.</p>
           </div>
         </div>
         <div class="feature-box">
           <div class="icon">🧱</div>
           <div>
-            <h3>Build worlds</h3>
-            <p>Create custom spaces with intuitive tools and original ideas.</p>
+            <h3>Create</h3>
+            <p>Shape worlds and build immersive spaces with intuitive tools.</p>
           </div>
         </div>
         <div class="feature-box">
           <div class="icon">👥</div>
           <div>
-            <h3>Social fun</h3>
-            <p>Meet players, join communities, and enjoy the social experience.</p>
+            <h3>Connect</h3>
+            <p>Meet friends, join communities, and share your next idea.</p>
           </div>
         </div>
       </section>
 
-      <section class="games container" id="games">
+      <section class="games container" id="explore">
         <div class="section-heading">
           <div>
             <span class="eyebrow">Featured</span>
-            <h2>Top games</h2>
+            <h2>Popular experiences</h2>
           </div>
           <a href="#">View all</a>
         </div>
@@ -145,7 +145,7 @@
             <div class="thumb thumb-one"></div>
             <div class="card-body">
               <h3>Skyline Builder</h3>
-              <p>Design massive city structures, landscapes, and neighborhoods.</p>
+              <p>Design your dream city, one block at a time.</p>
             </div>
           </article>
 
@@ -153,7 +153,7 @@
             <div class="thumb thumb-two"></div>
             <div class="card-body">
               <h3>Block Rush</h3>
-              <p>Race through obstacle-packed challenges in thrill-filled maps.</p>
+              <p>Test your speed through obstacle-filled challenge maps.</p>
             </div>
           </article>
 
@@ -161,7 +161,7 @@
             <div class="thumb thumb-three"></div>
             <div class="card-body">
               <h3>Pixel Forge</h3>
-              <p>Mine resources, craft tools, and build your own empire.</p>
+              <p>Craft tools, gather resources, and grow your base.</p>
             </div>
           </article>
 
@@ -169,7 +169,7 @@
             <div class="thumb thumb-four"></div>
             <div class="card-body">
               <h3>Arcade Arena</h3>
-              <p>Compete in mini-games built for speed, skill, and fun.</p>
+              <p>Hop into fast-paced minigames and live events.</p>
             </div>
           </article>
         </div>
@@ -178,11 +178,11 @@
       <section class="showcase container" id="creator">
         <div class="showcase-panel left-panel">
           <span class="eyebrow">Creator tools</span>
-          <h2>Make your own worlds.</h2>
+          <h2>Build your own universe.</h2>
           <p>
-            Build from scratch with an easy-to-use creative toolkit and publish your imagination for others to explore.
+            Publish your own worlds, host events, and turn every idea into a place people can play and explore.
           </p>
-          <button class="btn btn-primary">Start building</button>
+          <button class="btn btn-primary modal-trigger" data-modal="signup-modal">Start building</button>
         </div>
 
         <div class="showcase-panel stats-panel">
@@ -205,7 +205,7 @@
         <div class="community-box">
           <div class="community-head">
             <span class="eyebrow">Trending</span>
-            <h2>What the community is playing</h2>
+            <h2>What people are playing</h2>
           </div>
 
           <ul class="trend-list">
@@ -246,6 +246,46 @@
         </div>
       </div>
     </footer>
+
+    <div class="modal-overlay hidden" id="login-modal" aria-hidden="true">
+      <div class="modal" role="dialog" aria-modal="true" aria-labelledby="login-title">
+        <button class="modal-close" type="button" aria-label="Close">×</button>
+        <h3 id="login-title">Log in to Digiblox</h3>
+        <form class="auth-form">
+          <label>
+            Username or email
+            <input type="text" placeholder="Enter your username" />
+          </label>
+          <label>
+            Password
+            <input type="password" placeholder="Enter your password" />
+          </label>
+          <button type="submit" class="btn btn-primary full">Log in</button>
+        </form>
+      </div>
+    </div>
+
+    <div class="modal-overlay hidden" id="signup-modal" aria-hidden="true">
+      <div class="modal" role="dialog" aria-modal="true" aria-labelledby="signup-title">
+        <button class="modal-close" type="button" aria-label="Close">×</button>
+        <h3 id="signup-title">Create your account</h3>
+        <form class="auth-form">
+          <label>
+            Username
+            <input type="text" placeholder="Choose a username" />
+          </label>
+          <label>
+            Email
+            <input type="email" placeholder="you@example.com" />
+          </label>
+          <label>
+            Password
+            <input type="password" placeholder="Create a password" />
+          </label>
+          <button type="submit" class="btn btn-primary full">Sign up</button>
+        </form>
+      </div>
+    </div>
 
     <script src="script.js"></script>
   </body>

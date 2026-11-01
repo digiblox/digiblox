@@ -1,6 +1,6 @@
 # Digiblox
 
-A fan-made social gaming website inspired by the feel of classic 2016 gaming portals.
+A fan-made social gaming and creation website inspired by the feel of classic 2016-era creator platforms.
 
 ## Run locally
 
